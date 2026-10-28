@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <rect width="100" height="100" rx="20" fill="#4A1D96"/>
+  <g transform="translate(18, 14)">
+    <rect x="22" y="10" width="20" height="52" rx="3" fill="#A855F7"/>
+    <rect x="6" y="24" width="16" height="38" rx="2" fill="#7E22CE"/>
+    <rect x="42" y="32" width="16" height="30" rx="2" fill="#9333EA"/>
+    <rect x="26" y="16" width="4" height="4" rx="1" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="34" y="16" width="4" height="4" rx="1" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="26" y="24" width="4" height="4" rx="1" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="34" y="24" width="4" height="4" rx="1" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="26" y="32" width="4" height="4" rx="1" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="34" y="32" width="4" height="4" rx="1" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="26" y="40" width="4" height="4" rx="1" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="34" y="40" width="4" height="4" rx="1" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="0" y="62" width="64" height="3" rx="1.5" fill="#C084FC"/>
+  </g>
+  <text x="50" y="88" font-family="system-ui, sans-serif" font-size="10" font-weight="800" fill="#E9D5FF" text-anchor="middle" letter-spacing="1">MAXI RENDA</text>
+</svg>

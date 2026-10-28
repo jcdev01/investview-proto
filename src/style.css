@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-950: #050d1a;
+  --color-navy-900: #0a1628;
+  --color-navy-800: #0f2040;
+  --color-navy-700: #153258;
+  --color-navy-600: #1e4878;
+  --color-card: #0d1f38;
+  --color-card-hover: #112342;
+  --color-border: #1e3a5f;
+  --color-emerald-400: #34d399;
+  --color-emerald-500: #10b981;
+  --color-cyan-400: #22d3ee;
+  --color-cyan-500: #06b6d4;
+  --color-red-400: #f87171;
+  --color-red-500: #ef4444;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #050d1a;
+    color: #e2e8f0;
+    min-height: 100vh;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0a1628;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1e3a5f;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #22d3ee;
+  }
+}
+
+@layer utilities {
+  .text-positive {
+    color: #34d399;
+  }
+  .text-negative {
+    color: #f87171;
+  }
+  .bg-card {
+    background-color: #0d1f38;
+  }
+  .bg-card-hover {
+    background-color: #112342;
+  }
+  .border-subtle {
+    border-color: #1e3a5f;
+  }
+  .card {
+    background-color: #0d1f38;
+    border: 1px solid #1e3a5f;
+    border-radius: 12px;
+  }
+  .card-hover {
+    transition: border-color 0.2s, background-color 0.2s;
+  }
+  .card-hover:hover {
+    border-color: #22d3ee44;
+    background-color: #112342;
+  }
+  .badge-positive {
+    background-color: rgba(52, 211, 153, 0.12);
+    color: #34d399;
+    border: 1px solid rgba(52, 211, 153, 0.2);
+  }
+  .badge-negative {
+    background-color: rgba(248, 113, 113, 0.12);
+    color: #f87171;
+    border: 1px solid rgba(248, 113, 113, 0.2);
+  }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <rect width="100" height="100" rx="20" fill="#0D2E2B"/>
+  <g transform="translate(10, 12)">
+    <path d="M12 12L40 64L68 12H50L40 40L30 12H12Z" fill="#007E7A"/>
+    <path d="M40 38C48 30 58 28 66 32C56 36 50 46 48 54L40 38Z" fill="#E5A823"/>
+    <text x="40" y="78" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">VALE</text>
+  </g>
+</svg>
